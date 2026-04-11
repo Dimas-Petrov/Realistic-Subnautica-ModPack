@@ -1,7 +1,7 @@
 name: Deploy MkDocs site to Pages
 on:
   push:
-    branches: ["main"] # ← ваша главная ветка (main или master)
+    branches: ["main"] # ваша главная ветка (main или master)
   workflow_dispatch:
 permissions:
   contents: write
