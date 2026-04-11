@@ -12,14 +12,14 @@ theme:
         name: Переключить на тёмную тему
 
     - scheme: slate
-      primary: blue
-      accent: light-blue
+      primary: black
+      accent: white
       toggle:
         icon: material/weather-night
         name: Переключить на AMOLED-тему
 
     - scheme: slate
-      primary: black
+      primary: grey
       accent: white
       toggle:
         icon: material/moon-waning-crescent
