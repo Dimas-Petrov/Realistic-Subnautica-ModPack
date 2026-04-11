@@ -4,13 +4,11 @@ theme:
   name: material
   language: ru
 
-# Навигация (меню)
 nav:
   - Главная: index.md
   - Установка: Installation.md
   - ЧаВо: faq.md
 
-# Расширения Markdown (должны быть на верхнем уровне, а не внутри nav)
 markdown_extensions:
   - admonition
   - pymdownx.details
