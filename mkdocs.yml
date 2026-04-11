@@ -32,7 +32,7 @@ nav:
   - Установка: Installation.md
   - ЧаВо: faq.md
 
-  markdown_extensions:
+markdown_extensions:
   - admonition # Красивые блоки "Важно", "Подсказка"
   - pymdownx.details # Сворачиваемые блоки
   - pymdownx.superfences # Расширенные возможности для кода
