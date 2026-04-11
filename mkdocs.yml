@@ -1,19 +1,45 @@
-site_name: Realistic Subnautica ModPack
+site_name: Realistic Subnautica ModPack # ← Название вашего сайта
 site_url: https://dimas-petrov.github.io/Realistic-Subnautica-ModPack/
 theme:
   name: material
   language: ru
+  palette:
+    # Светлая тема
+    - scheme: default
+      primary: blue
+      accent: light-blue
+      toggle:
+        icon: material/weather-sunny
+        name: Переключить на тёмную тему
 
+    # Тёмная тема (стандартная)
+    - scheme: slate
+      primary: blue
+      accent: light-blue
+      toggle:
+        icon: material/weather-night
+        name: Переключить на AMOLED-тему
+
+    # AMOLED-тема (тёмная с кастомными цветами)
+    - scheme: slate
+      primary: black
+      accent: white
+      toggle:
+        icon: material/moon-waning-crescent
+        name: Переключить на светлую тему
+extra_css:
+  - stylesheets/extra.css
+# ↓ Это ваш список страниц в меню ↓
 nav:
   - Главная: index.md
   - Установка: Installation.md
   - ЧаВо: faq.md
 
-markdown_extensions:
-  - admonition
-  - pymdownx.details
-  - pymdownx.superfences
-  - pymdownx.tabbed:
+  markdown_extensions:
+  - admonition # Красивые блоки "Важно", "Подсказка"
+  - pymdownx.details # Сворачиваемые блоки
+  - pymdownx.superfences # Расширенные возможности для кода
+  - pymdownx.tabbed: # Контент в виде вкладок
       alternate_style: true
   - pymdownx.highlight:
       anchor_linenums: true
