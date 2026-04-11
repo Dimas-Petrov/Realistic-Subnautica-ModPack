@@ -18,7 +18,7 @@ theme:
         icon: material/weather-night
         name: Переключить на AMOLED-тему
 
-    - scheme: slate
+    - scheme: amoled
       primary: grey
       accent: white
       toggle:
