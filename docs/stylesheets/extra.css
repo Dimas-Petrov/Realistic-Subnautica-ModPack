@@ -4,6 +4,7 @@
 [data-md-color-scheme="slate"] {
   --md-default-bg-color: #000000;
   --md-default-fg-color: #ffffff;
+  --md-default-fg-color--light: #ffffff;
   --md-typeset-color: #ffffff;
   --md-typeset-a-color: #bb86fc !important;
   --md-accent-fg-color: #bb86fc;
@@ -13,6 +14,7 @@
 [data-md-color-scheme="amoled"] {
   --md-default-bg-color: #1e1e1e;
   --md-default-fg-color: #ffffff;
+  --md-default-fg-color--light: #ffffff;
   --md-typeset-color: #ffffff;
   --md-typeset-a-color: #bb86fc !important;
   --md-accent-fg-color: #bb86fc;

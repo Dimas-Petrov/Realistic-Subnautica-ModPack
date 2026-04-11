@@ -1,31 +1,60 @@
 site_name: Realistic Subnautica ModPack # ← Название вашего сайта
 site_url: https://dimas-petrov.github.io/Realistic-Subnautica-ModPack/
+
 theme:
   name: material
   language: ru
   palette:
+
+    # Светлая тема
     - scheme: default
       primary: blue
       accent: light-blue
       toggle:
-        icon: material/weather-night
-        name: Переключить на AMOLED-тему
+        icon: material/weather-sunny
+        name: Светлая тема
 
+    # Тёмная тема (стандартная)
+    # - scheme: slate
+    #   primary: blue
+    #   accent: light-blue
+    #   toggle:
+    #     icon: material/weather-night
+    #     name: Тёмная тема
+
+    # AMOLED-тема (максимально тёмная встроенными средствами)
     - scheme: slate
       primary: black
       accent: white
       toggle:
-        icon: material/weather-sunny
-        name: Переключить на тёмную тему
+        icon: material/weather-night
+        name: Тёмная тема
+# theme:
+#   name: material
+#   language: ru
+#   palette:
+#     - scheme: default
+#       primary: blue
+#       accent: light-blue
+#       toggle:
+#         icon: material/weather-night
+#         name: Переключить на AMOLED-тему
 
-    - scheme: amoled
-      primary: 
-      accent: 
-      toggle:
-        icon: material/moon-waning-crescent
-        name: Переключить на светлую тему
-extra_css:
-  - stylesheets/extra.css
+#     - scheme: slate
+#       primary: black
+#       accent: white
+#       toggle:
+#         icon: material/weather-sunny
+#         name: Переключить на тёмную тему
+
+#     - scheme: amoled
+#       primary: black
+#       accent: 
+#       toggle:
+#         icon: material/moon-waning-crescent
+#         name: Переключить на светлую тему
+# extra_css:
+#   - stylesheets/extra.css
   
 nav:
   - Главная: index.md
