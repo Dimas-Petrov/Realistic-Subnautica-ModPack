@@ -1,0 +1,23 @@
+site_name: Realistic Subnautica ModPack # ← Название вашего сайта
+site_url: https://dimas-petrov.github.io/Realistic-Subnautica-ModPack/
+theme:
+  name: material
+  language: ru
+# ↓ Это ваш список страниц в меню ↓
+nav:
+  - Главная: index.md
+  - Установка: Installation.md
+  - ЧаВо: faq.md
+
+  markdown_extensions:
+  - admonition # Красивые блоки "Важно", "Подсказка"
+  - pymdownx.details # Сворачиваемые блоки
+  - pymdownx.superfences # Расширенные возможности для кода
+  - pymdownx.tabbed: # Контент в виде вкладок
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - attr_list
+  - md_in_html
