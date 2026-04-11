@@ -26,6 +26,7 @@ theme:
         name: Переключить на светлую тему
 extra_css:
   - stylesheets/extra.css
+  
 nav:
   - Главная: index.md
   - Установка: Installation.md
