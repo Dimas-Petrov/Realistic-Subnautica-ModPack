@@ -19,8 +19,8 @@ theme:
         name: Переключить на AMOLED-тему
 
     - scheme: amoled
-      primary: grey
-      accent: white
+      primary: 
+      accent: 
       toggle:
         icon: material/moon-waning-crescent
         name: Переключить на светлую тему
