@@ -8,15 +8,15 @@ theme:
       primary: blue
       accent: light-blue
       toggle:
-        icon: material/weather-sunny
-        name: Переключить на тёмную тему
+        icon: material/weather-night
+        name: Переключить на AMOLED-тему
 
     - scheme: slate
       primary: black
       accent: white
       toggle:
-        icon: material/weather-night
-        name: Переключить на AMOLED-тему
+        icon: material/weather-sunny
+        name: Переключить на тёмную тему
 
     - scheme: amoled
       primary: 
