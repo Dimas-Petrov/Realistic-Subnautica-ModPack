@@ -1,23 +1,228 @@
-/* docs/stylesheets/extra.css */
-
-/* Стили для AMOLED-темы (чёрный фон, белый текст) */
-[data-md-color-scheme="slate"] {
-  --md-default-bg-color: #000000;
-  --md-default-fg-color: #ffffff;
-  --md-default-fg-color--light: #ffffff;
-  --md-typeset-color: #ffffff;
-  --md-typeset-a-color: #bb86fc !important;
-  --md-accent-fg-color: #bb86fc;
-  --md-code-bg-color: #1e1e1e;
+/* Определяем шрифт */
+@font-face {
+  font-family: 'MyCustomFont';
+  src: url('/assets/fonts/Days_One.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
+:root {
+  --md-text-font: 'Days_One', sans-serif;
+}
+
+/* ===== AMOLED тема ===== */
 [data-md-color-scheme="amoled"] {
-  --md-default-bg-color: #1e1e1e;
-  --md-default-fg-color: #ffffff;
-  --md-default-fg-color--light: #ffffff;
-  --md-typeset-color: #ffffff;
-  --md-typeset-a-color: #bb86fc !important;
-  --md-accent-fg-color: #bb86fc;
-  --md-code-fg-color: #A9A9A9;
-  --md-code-bg-color: #2F4F4F;
+  /* Основные фоны — чистый чёрный */
+  --md-default-bg-color:            #000000;
+  --md-default-bg-color--light:     #0a0a0a;
+  --md-default-bg-color--lighter:   #111111;
+  --md-default-bg-color--lightest:  #1a1a1a;
+
+  /* Основной текст */
+  --md-default-fg-color:            rgba(255, 255, 255, 0.87);
+  --md-default-fg-color--light:     rgba(255, 255, 255, 0.54);
+  --md-default-fg-color--lighter:   rgba(255, 255, 255, 0.32);
+  --md-default-fg-color--lightest:  rgba(255, 255, 255, 0.07);
+
+  /* Типографика */
+  --md-typeset-color:               rgba(255, 255, 255, 0.87);
+  --md-typeset-a-color:             #40c4ff;
+
+  /* Шапка и футер */
+  --md-header-bg-color:             #000000;
+  --md-footer-bg-color:             #000000;
+  --md-footer-fg-color:             rgba(255, 255, 255, 0.87);
+  --md-footer-fg-color--light:      rgba(255, 255, 255, 0.54);
+  --md-footer-fg-color--lighter:    rgba(255, 255, 255, 0.32);
+
+  /* Код */
+  --md-code-bg-color:               #0d0d0d;
+  --md-code-fg-color:               rgba(255, 255, 255, 0.87);
+
+  /* Таблицы */
+  --md-typeset-table-color:         rgba(255, 255, 255, 0.05);
+  --md-typeset-table-color--light:  rgba(255, 255, 255, 0.02);
+
+  /* Акцент и primary */
+  --md-accent-fg-color:             #40c4ff;
+  --md-accent-fg-color--transparent: rgba(64, 196, 255, 0.1);
+  --md-primary-fg-color:            #000000;
+  --md-primary-bg-color:            #ffffff;
+}
+
+/* Принудительный цвет для всех текстовых элементов */
+[data-md-color-scheme="amoled"] body,
+[data-md-color-scheme="amoled"] .md-content,
+[data-md-color-scheme="amoled"] .md-typeset,
+[data-md-color-scheme="amoled"] .md-typeset p,
+[data-md-color-scheme="amoled"] .md-typeset li,
+[data-md-color-scheme="amoled"] .md-typeset h1,
+[data-md-color-scheme="amoled"] .md-typeset h2,
+[data-md-color-scheme="amoled"] .md-typeset h3,
+[data-md-color-scheme="amoled"] .md-typeset h4,
+[data-md-color-scheme="amoled"] .md-typeset h5,
+[data-md-color-scheme="amoled"] .md-typeset h6,
+[data-md-color-scheme="amoled"] .md-typeset strong,
+[data-md-color-scheme="amoled"] .md-typeset em,
+[data-md-color-scheme="amoled"] .md-typeset blockquote,
+[data-md-color-scheme="amoled"] .md-typeset table,
+[data-md-color-scheme="amoled"] .md-typeset th,
+[data-md-color-scheme="amoled"] .md-typeset td,
+[data-md-color-scheme="amoled"] .md-nav__item,
+[data-md-color-scheme="amoled"] .md-nav__link {
+  color: rgba(255, 255, 255, 0.87);
+}
+
+/* Ссылки */
+[data-md-color-scheme="amoled"] .md-typeset a {
+  color: #40c4ff;
+}
+
+[data-md-color-scheme="amoled"] .md-typeset a:hover {
+  color: #80d8ff;
+}
+
+/* Код внутри текста */
+[data-md-color-scheme="amoled"] .md-typeset code {
+  background-color: #0d0d0d;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+/* Боковая навигация */
+[data-md-color-scheme="amoled"] .md-sidebar {
+  background-color: #000000;
+}
+
+[data-md-color-scheme="amoled"] .md-nav__title {
+  color: rgba(255, 255, 255, 0.54);
+}
+
+/* Блоки admonition */
+[data-md-color-scheme="amoled"] .md-typeset .admonition,
+[data-md-color-scheme="amoled"] .md-typeset details {
+  background-color: #0d0d0d;
+  border-color: #333333;
+}
+
+[data-md-color-scheme="amoled"] .md-typeset .admonition-title,
+[data-md-color-scheme="amoled"] .md-typeset summary {
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #111111;
+}
+
+/* Поиск */
+[data-md-color-scheme="amoled"] .md-search__form {
+  background-color: #111111;
+}
+
+[data-md-color-scheme="amoled"] .md-search__input {
+  color: rgba(255, 255, 255, 0.87);
+}
+
+/* 1. Выделение текущей страницы в навигации */
+[data-md-color-scheme="amoled"] .md-nav__link--active,
+[data-md-color-scheme="amoled"] .md-nav__link--active:hover {
+  color: #40c4ff !important;
+  font-weight: bold;
+}
+
+/* 2. !!! quote — явная обводка и фон заголовка */
+[data-md-color-scheme="amoled"] .md-typeset .admonition.quote,
+[data-md-color-scheme="amoled"] .md-typeset details.quote {
+  border-color: #9e9e9e;
+}
+
+[data-md-color-scheme="amoled"] .md-typeset .quote > .admonition-title,
+[data-md-color-scheme="amoled"] .md-typeset .quote > summary {
+  background-color: rgba(158, 158, 158, 0.15);
+  color: rgba(255, 255, 255, 0.87);
+}
+
+[data-md-color-scheme="amoled"] .md-typeset .quote > .admonition-title::before,
+[data-md-color-scheme="amoled"] .md-typeset .quote > summary::before {
+  color: #9e9e9e;
+}
+
+/* 3. !!! note — ярко-голубой */
+[data-md-color-scheme="amoled"] .md-typeset .admonition.note,
+[data-md-color-scheme="amoled"] .md-typeset details.note {
+  border-color: #40c4ff;
+}
+
+[data-md-color-scheme="amoled"] .md-typeset .note > .admonition-title,
+[data-md-color-scheme="amoled"] .md-typeset .note > summary {
+  background-color: rgba(64, 196, 255, 0.15);
+  color: rgba(255, 255, 255, 0.87);
+}
+
+[data-md-color-scheme="amoled"] .md-typeset .note > .admonition-title::before,
+[data-md-color-scheme="amoled"] .md-typeset .note > summary::before {
+  color: #40c4ff;
+}
+
+/* 4. ??? abstract — голубой + полупрозрачный фон заголовка */
+[data-md-color-scheme="amoled"] .md-typeset .admonition.abstract,
+[data-md-color-scheme="amoled"] .md-typeset details.abstract {
+  border-color: #00b0ff;
+}
+
+[data-md-color-scheme="amoled"] .md-typeset .abstract > .admonition-title,
+[data-md-color-scheme="amoled"] .md-typeset .abstract > summary {
+  background-color: rgba(0, 176, 255, 0.15);
+  color: rgba(255, 255, 255, 0.87);
+}
+
+[data-md-color-scheme="amoled"] .md-typeset .abstract > .admonition-title::before,
+[data-md-color-scheme="amoled"] .md-typeset .abstract > summary::before {
+  color: #00b0ff;
+}
+
+/* 5. !!! warning — оранжевая обводка и фон заголовка */
+[data-md-color-scheme="amoled"] .md-typeset .admonition.warning,
+[data-md-color-scheme="amoled"] .md-typeset details.warning {
+  border-color: #ff9100;
+}
+
+[data-md-color-scheme="amoled"] .md-typeset .warning > .admonition-title,
+[data-md-color-scheme="amoled"] .md-typeset .warning > summary {
+  background-color: rgba(255, 145, 0, 0.15);
+  color: rgba(255, 255, 255, 0.87);
+}
+
+[data-md-color-scheme="amoled"] .md-typeset .warning > .admonition-title::before,
+[data-md-color-scheme="amoled"] .md-typeset .warning > summary::before {
+  color: #ff9100;
+}
+
+/* Шапка сайта */
+[data-md-color-primary=black] .md-header {
+  background-color:hsla(var(--md-hue),1%,1%,5)
+}
+
+/* Копирайт — выравнивание по левому краю */
+.md-footer-meta__inner {
+  justify-content: flex-start;
+  padding-left: 1.2rem;
+}
+
+.md-copyright {
+  text-align: left;
+}
+
+/* Копирайт — перемещает строго в левый край страницы */
+.md-footer-meta__inner {
+  display:inline flow-root list-item;
+  flex-wrap:wrap;
+  justify-content:space-between;
+  padding:.2rem
+}
+
+/* Фавикон */
+.md-header__button.md-logo img,
+.md-header__button.md-logo svg {
+  fill:currentcolor;
+  display:block;
+  height:3rem;
+  width:auto
 }

@@ -1,11 +1,13 @@
-site_name: Realistic Subnautica ModPack # ← Название вашего сайта
+site_name: Realistic Subnautica ModPack
 site_url: https://dimas-petrov.github.io/Realistic-Subnautica-ModPack/
 
 theme:
   name: material
+  custom_dir: overrides
+  favicon: assets/favicons/favicon-32x32.png
+  logo: assets/favicons/apple-touch-icon.png
   language: ru
   palette:
-
     # Светлая тема
     - scheme: default
       primary: blue
@@ -14,58 +16,54 @@ theme:
         icon: material/weather-sunny
         name: Светлая тема
 
-    # Тёмная тема (стандартная)
-    # - scheme: slate
-    #   primary: blue
-    #   accent: light-blue
-    #   toggle:
-    #     icon: material/weather-night
-    #     name: Тёмная тема
-
-    # AMOLED-тема (максимально тёмная встроенными средствами)
+    # Тёмная тема
     - scheme: slate
       primary: black
       accent: white
       toggle:
         icon: material/weather-night
         name: Тёмная тема
-# theme:
-#   name: material
-#   language: ru
-#   palette:
-#     - scheme: default
-#       primary: blue
-#       accent: light-blue
-#       toggle:
-#         icon: material/weather-night
-#         name: Переключить на AMOLED-тему
 
-#     - scheme: slate
-#       primary: black
-#       accent: white
-#       toggle:
-#         icon: material/weather-sunny
-#         name: Переключить на тёмную тему
+    # AMOLED тема (чисто чёрный фон)
+    - scheme: amoled
+      primary: black
+      accent: white
+      toggle:
+        icon: material/circle-half-full
+        name: AMOLED тема
 
-#     - scheme: amoled
-#       primary: black
-#       accent: 
-#       toggle:
-#         icon: material/moon-waning-crescent
-#         name: Переключить на светлую тему
-# extra_css:
-#   - stylesheets/extra.css
-  
-nav:
-  - Главная: index.md
-  - Установка: Installation.md
-  - ЧаВо: faq.md
+extra_css:
+  - stylesheets/extra.css
+
+plugins:
+  - search
+  - mkdocs-video
+  - awesome-pages
+
+extra:
+  consent:
+    title: Cookie consent
+    description: >
+      Мы используем файлы cookie, чтобы улучшить работу сайта.
+    actions:
+      - accept
+      - reject
+      - manage
+    cookies:
+      github:
+        name: GitHub
+        checked: true
+
+copyright: >
+  © 2026 Realistic Subnautica ModPack. 
+  <a href="/privacy-policy/">Политика конфиденциальности</a> | 
+  <a href="/terms-of-service/">Условия использования</a>
 
 markdown_extensions:
-  - admonition # Красивые блоки "Важно", "Подсказка"
-  - pymdownx.details # Сворачиваемые блоки
-  - pymdownx.superfences # Расширенные возможности для кода
-  - pymdownx.tabbed: # Контент в виде вкладок
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.highlight:
       anchor_linenums: true
