@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Добро пожаловать на сайт!</title>
     <style>
+        /* Сброс отступов */
         body, html {
             margin: 0;
             padding: 0;
@@ -13,7 +14,7 @@
             overflow: hidden;
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
         }
-
+        /* Контейнер заставки */
         .splash-container {
             position: fixed;
             top: 0;
@@ -22,32 +23,20 @@
             height: 100vh;
             overflow: hidden;
         }
-
-        /* ─── Видео повёрнуто на 90°, размеры sw/vh поменяны местами ─── */
+        /* Фоновое видео */
         .splash-video {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    transform: translate(-50%, -50%);
-    object-fit: cover;
-    z-index: 1;
-}
-
-/* Поворот только на вертикальных экранах (мобильные в portrait-режиме) */
-@media (orientation: portrait) {
-    .splash-video {
-        width: 100vh;
-        height: 100vw;
-        min-width: unset;
-        min-height: unset;
-        transform: translate(-50%, -50%) rotate(90deg);
-        object-fit: cover;
-    }
-}
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            transform: translate(-50%, -50%);
+            object-fit: cover;
+            z-index: 1;
+        }
+        /* Затемняющий слой */
         .splash-overlay {
             position: absolute;
             top: 0;
@@ -58,7 +47,7 @@
             z-index: 2;
             transition: background-color 0.3s ease;
         }
-
+        /* Текст и кнопка */
         .splash-content {
             position: absolute;
             top: 50%;
@@ -69,20 +58,17 @@
             z-index: 3;
             transition: opacity 0.3s ease;
         }
-
         .splash-title {
             font-size: 4rem;
             font-weight: 700;
             margin-bottom: 1rem;
             text-shadow: 2px 2px 8px rgba(0,0,0,0.6);
         }
-
         .splash-subtitle {
             font-size: 1.5rem;
             margin-bottom: 2rem;
             text-shadow: 1px 1px 6px rgba(0,0,0,0.6);
         }
-
         .splash-button {
             display: inline-block;
             padding: 15px 30px;
@@ -97,91 +83,43 @@
             cursor: pointer;
             transition: all 0.3s ease;
         }
-
         .splash-button:hover {
             background-color: #fff;
             color: #000;
         }
-
-        /* Эффект при наведении — затемнение и контент исчезают */
+        /* Эффект при наведении */
         .splash-container:has(.splash-button:hover) .splash-overlay {
             background-color: rgba(0, 0, 0, 0);
         }
-
         .splash-container:has(.splash-button:hover) .splash-content {
             opacity: 0;
         }
-
         .splash-container:has(.splash-button:hover) .splash-button {
             opacity: 0;
         }
-
+        /* Адаптив для мобильных */
         @media (max-width: 768px) {
-            .splash-title { font-size: 2.5rem; }
-            .splash-subtitle { font-size: 1.2rem; }
+            .splash-title {
+                font-size: 2.5rem;
+            }
+            .splash-subtitle {
+                font-size: 1.2rem;
+            }
         }
     </style>
 </head>
 <body>
     <div class="splash-container">
-        <!-- muted обязателен для autoplay; JS снимет mute при наведении -->
-        <video class="splash-video" id="splashVideo" autoplay muted loop playsinline>
+        <video class="splash-video" autoplay muted loop playsinline>
             <source src="assets/webm/background.webm" type="video/webm">
             Ваш браузер не поддерживает видео.
         </video>
-
         <div class="splash-overlay"></div>
-
         <div class="splash-content">
             <h1 class="splash-title">Добро пожаловать!</h1>
             <p class="splash-subtitle">Ваше потрясающее приветствие здесь.</p>
-            <a href="home/" class="splash-button" id="enterBtn">Войти на сайт</a>
+            <a href="home/" class="splash-button">Войти на сайт</a>
         </div>
     </div>
-
-<script>
-    const button = document.getElementById('enterBtn');
-
-    // Отдельный аудио элемент — видео не трогаем вообще
-    const audio = new Audio('assets/webm/background-audio.mp3');
-    audio.loop   = true;
-    audio.volume = 0;
-
-    const FADE_DURATION_MS = 2000;
-    const TICK_MS          = 40;
-    const STEPS            = FADE_DURATION_MS / TICK_MS;
-    const STEP_SIZE        = 1 / STEPS;
-
-    let fadeInterval = null;
-
-    function stopFade() {
-        if (fadeInterval !== null) {
-            clearInterval(fadeInterval);
-            fadeInterval = null;
-        }
-    }
-
-    button.addEventListener('mouseenter', () => {
-        stopFade();
-        audio.volume = 0;
-        audio.play().catch(() => {}); // начинаем играть с нулевой громкостью
-
-        fadeInterval = setInterval(() => {
-            const next = audio.volume + STEP_SIZE;
-            if (next >= 1) {
-                audio.volume = 1;
-                stopFade();
-            } else {
-                audio.volume = next;
-            }
-        }, TICK_MS);
-    });
-
-    button.addEventListener('mouseleave', () => {
-        stopFade();
-        audio.volume = 0;
-        audio.pause();
-    });
-</script>
 </body>
 </html>

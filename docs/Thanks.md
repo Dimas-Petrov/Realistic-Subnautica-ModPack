@@ -24,3 +24,9 @@
 
     - [HomoSapiens](https://t.me/imkozhevnikov) - логотип [группы Telegram](https://t.me/rl_sub)
     - [BenZ1n3ra](https://steamcommunity.com/profiles/76561198274647732) - Футажное видео экрана приветствия сайта (Создатель [исходника](https://steamcommunity.com/sharedfiles/filedetails/?id=3145872589))
+
+??? abstract "Технические вопросы"
+    Благодарность за помощь с техническими вопросами.
+
+    - [Канал НЕЛа](https://youtube.com/@nel_mon?si=p2EB8pjTgpR7DAJp) - [Видео-инструкция по установке МодПака](http://127.0.0.1:8000/Realistic-Subnautica-ModPack/Wiki/RSNMP%202023/Installation/#-)
+    - [lcUlyanov](https://github.com/lcUlyanov) - Помощь с сайтом

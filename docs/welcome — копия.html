@@ -139,49 +139,46 @@
         </div>
     </div>
 
-<script>
-    const button = document.getElementById('enterBtn');
+    <script>
+        const video  = document.getElementById('splashVideo');
+        const button = document.getElementById('enterBtn');
 
-    // Отдельный аудио элемент — видео не трогаем вообще
-    const audio = new Audio('assets/webm/background-audio.mp3');
-    audio.loop   = true;
-    audio.volume = 0;
+        const FADE_DURATION_MS = 2000;  // 2 секунды
+        const TICK_MS          = 40;    // шаг обновления громкости
+        const STEPS            = FADE_DURATION_MS / TICK_MS;
+        const STEP_SIZE        = 1 / STEPS;
 
-    const FADE_DURATION_MS = 2000;
-    const TICK_MS          = 40;
-    const STEPS            = FADE_DURATION_MS / TICK_MS;
-    const STEP_SIZE        = 1 / STEPS;
+        let fadeInterval = null;
 
-    let fadeInterval = null;
-
-    function stopFade() {
-        if (fadeInterval !== null) {
-            clearInterval(fadeInterval);
-            fadeInterval = null;
-        }
-    }
-
-    button.addEventListener('mouseenter', () => {
-        stopFade();
-        audio.volume = 0;
-        audio.play().catch(() => {}); // начинаем играть с нулевой громкостью
-
-        fadeInterval = setInterval(() => {
-            const next = audio.volume + STEP_SIZE;
-            if (next >= 1) {
-                audio.volume = 1;
-                stopFade();
-            } else {
-                audio.volume = next;
+        function stopFade() {
+            if (fadeInterval !== null) {
+                clearInterval(fadeInterval);
+                fadeInterval = null;
             }
-        }, TICK_MS);
-    });
+        }
 
-    button.addEventListener('mouseleave', () => {
-        stopFade();
-        audio.volume = 0;
-        audio.pause();
-    });
-</script>
+        button.addEventListener('mouseenter', () => {
+    stopFade();
+    video.muted  = false;
+    video.volume = 0;
+    video.play(); // ← принудительно продолжаем воспроизведение после unmute
+
+    fadeInterval = setInterval(() => {
+        const next = video.volume + STEP_SIZE;
+        if (next >= 1) {
+            video.volume = 1;
+            stopFade();
+        } else {
+            video.volume = next;
+        }
+    }, TICK_MS);
+});
+
+        button.addEventListener('mouseleave', () => {
+            stopFade();
+            video.volume = 0;
+            video.muted  = true;   // возвращаем muted, чтобы не было тихого фона
+        });
+    </script>
 </body>
 </html>
