@@ -121,8 +121,8 @@
 ## 🔗 Полезные ссылки
 
 ### 📢 Telegram
-- Канал: https://t.me/RSNMP - новости, новые версии МодПака.  
-- Группа: https://t.me/rl_sub - Архив, общение.
+- Канал: [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/RSNMP) [![Subscribers](https://telegram-badge.vercel.app/api/telegram-badge?channelId=@rl_sub&style=for-the-badge&label=followers)](https://t.me/RSNMP) новости, новые версии МодПака.  
+- Группа: [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/rl_sub) [![Subscribers](https://telegram-badge.vercel.app/api/telegram-badge?channelId=@rl_sub&style=for-the-badge&label=followers)](https://t.me/rl_sub) Архив, общение. 
 
 ### 🌐 Сайт проекта
 https://dimas-petrov.github.io/Realistic-Subnautica-ModPack
@@ -134,15 +134,10 @@ https://github.com/Dimas-Petrov/Realistic-Subnautica-ModPack/releases
 - T‑Bank: https://www.tbank.ru/cf/7kdrpWla4fO
 - DonationAlerts: https://www.donationalerts.com/r/dimas_petrov
 
+### [![Taplink](https://img.shields.io/badge/🌐_Taplink_-_Портфолио_автора-000000?style=for-the-badge&logo=link&logoColor=white)](https://taplink.cc/urls_Dimas_Petrov)
+
 ---
 
 ## ❤️ Благодарности
-Особая благодарность **Alex Waycard** за помощь с лицензионным соглашением.
-
-> [!IMPORTANT]
-> 📢 [Официальный Telegram-канал проекта](https://t.me/rl_sub)
->
-> [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/rl_sub) [![Subscribers](https://telegram-badge.vercel.app/api/telegram-badge?channelId=@rl_sub&style=for-the-badge&label=followers)](https://t.me/rl_sub)
->
->  [![Taplink](https://img.shields.io/badge/🌐_Taplink_-_Портфолио_автора-000000?style=for-the-badge&logo=link&logoColor=white)](https://taplink.cc/urls_Dimas_Petrov)
+Особая благодарность **Alex Waycard** за помощь с лицензионным соглашением. 
 
