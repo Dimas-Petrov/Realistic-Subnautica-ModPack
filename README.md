@@ -121,7 +121,7 @@
 ## 🔗 Полезные ссылки
 
 ### 📢 Telegram
-- Канал: [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/RSNMP) [![Subscribers](https://telegram-badge.vercel.app/api/telegram-badge?channelId=@rl_sub&style=for-the-badge&label=followers)](https://t.me/RSNMP) новости, новые версии МодПака.  
+- Канал: [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/RSNMP) [![Subscribers](https://telegram-badge.vercel.app/api/telegram-badge?channelId=@RSNMP&style=for-the-badge&label=followers)](https://t.me/RSNMP) новости, новые версии МодПака.  
 - Группа: [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/rl_sub) [![Subscribers](https://telegram-badge.vercel.app/api/telegram-badge?channelId=@rl_sub&style=for-the-badge&label=followers)](https://t.me/rl_sub) Архив, общение. 
 
 ### 🌐 Сайт проекта
