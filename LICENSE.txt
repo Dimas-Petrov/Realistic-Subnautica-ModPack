@@ -1,0 +1,224 @@
+ЛИЦЕНЗИОННОЕ СОГЛАШЕНИЕ С КОНЕЧНЫМ ПОЛЬЗОВАТЕЛЕМ
+Realistic Subnautica ModPack (далее – «МодПак», «Сборка»)
+
+Пожалуйста, внимательно прочитайте данное Соглашение перед установкой.
+Устанавливая МодПак, вы подтверждаете, что принимаете все его условия.
+Если вы не согласны с каким-либо пунктом, прекратите установку.
+
+1. ОПРЕДЕЛЕНИЯ
+1.1. Автор – физическое лицо, создавшее Установщик и осуществившее подбор,
+настройку, тестирование и объединение Компонентов в единую Сборку, но не
+являющееся автором отдельных Компонентов, если иное не указано явно.
+1.2. Компоненты – модификации, библиотеки (BepInEx, Nautilus и др.), файлы
+ReShade, файлы русификаторов и озвучек, конфигурационные файлы и иные
+материалы, включённые в состав МодПака.
+1.3. Установщик – программа на базе Inno Setup, предназначенная для
+автоматизированного размещения Компонентов в каталоге игры Subnautica и
+применения настроек, созданных Автором.
+1.4. Пользователь – физическое лицо, правомерно установившее и использующее
+МодПак исключительно в личных некоммерческих целях.
+
+2. ПРАВА НА КОМПОНЕНТЫ И СБОРКУ
+2.1. Автор является обладателем исключительных прав на Установщик, подборку
+Компонентов, настройки и документацию к МодПаку.
+2.2. Пользователь признаёт и соглашается, что все исключительные права на
+каждый отдельный Компонент (мод, библиотеку, файл ReShade, русификатор,
+озвучку и т.д.) принадлежат их законным правообладателям. Автор не
+претендует на данные права и использует Компоненты исключительно как
+составные части некоммерческой сборки.
+2.3. Правовой статус каждого Компонента определяется лицензией его
+правообладателя. Настоящее Соглашение не отменяет и не изменяет такие
+лицензии. Пользователь обязан самостоятельно ознакомиться с лицензией
+каждого Компонента и соблюдать её условия. Установка МодПака означает
+согласие Пользователя с этим требованием.
+
+3. ИСТОЧНИКИ КОМПОНЕНТОВ
+3.1. Все Компоненты, включённые в МодПак, были получены из открытых
+источников сети Интернет и находятся в публичном доступе на момент
+формирования Сборки.
+3.2. Автор не проверяет правовой статус каждого Компонента в юрисдикции
+Пользователя. Пользователь принимает на себя все риски, связанные с
+использованием Компонентов, доступ к источникам которых может быть
+ограничен в отдельных странах.
+
+4. УСЛОВИЯ ИСПОЛЬЗОВАНИЯ
+4.1. МодПак предназначен исключительно для личного некоммерческого
+использования совместно с законно приобретённой копией игры Subnautica.
+4.2. Любое коммерческое использование МодПака, его частей или отдельных
+Компонентов в составе Сборки (продажа, сдача в прокат, включение в платные
+услуги, распространение на коммерческой основе и т.п.) без предварительного
+письменного разрешения Автора запрещено.
+4.3. Пользователь не вправе:
+  а) распространять МодПак или его Компоненты отдельно от оригинального
+     Установщика, а также в составе иных сборок, выдавая их за собственные
+     разработки;
+  б) декомпилировать, модифицировать Установщик или пытаться обойти его
+     технические ограничения;
+  в) использовать МодПак в целях, противоречащих применимому
+     законодательству.
+
+5. ОТВЕТСТВЕННОСТЬ СТОРОН И ОГРАНИЧЕНИЕ ГАРАНТИЙ
+5.1. МОДПАК ПРЕДОСТАВЛЯЕТСЯ «КАК ЕСТЬ» (AS IS). АВТОР НЕ ДАЁТ НИКАКИХ
+ЯВНЫХ ИЛИ ПОДРАЗУМЕВАЕМЫХ ГАРАНТИЙ РАБОТОСПОСОБНОСТИ, СОВМЕСТИМОСТИ,
+ОТСУТСТВИЯ ОШИБОК ИЛИ СООТВЕТСТВИЯ ОЖИДАНИЯМ ПОЛЬЗОВАТЕЛЯ.
+5.2. Автор не несёт ответственности за:
+  а) любой прямой или косвенный ущерб (потерю игровых сохранений, сбои ОС,
+     повреждение оборудования, упущенную выгоду и т.д.), возникший в
+     результате установки, использования или невозможности использования
+     МодПака;
+  б) содержание и функционирование отдельных Компонентов, автором которых
+     он не является;
+  в) нарушение Пользователем прав интеллектуальной собственности третьих
+     лиц, включая права авторов Компонентов и правообладателя игры
+     Subnautica. Устанавливая МодПак, Пользователь подтверждает, что
+     самостоятельно урегулирует любые претензии со стороны таких третьих
+     лиц и обязуется возместить Автору убытки, возникшие в связи с
+     предъявлением подобных претензий по вине Пользователя.
+5.3. В случае поступления мотивированных требований от правообладателей
+отдельных Компонентов Автор оставляет за собой право удалить такие
+Компоненты из состава Сборки. Пользователь соглашается, что такие действия
+не являются нарушением настоящего Соглашения и не дают Пользователю права
+на какие-либо претензии к Автору.
+
+6. ФИНАНСОВАЯ ПОДДЕРЖКА (ДОНАТЫ)
+6.1. Все финансовые поступления, полученные Автором через любые каналы
+(страница проекта, Telegram и т.п.), являются добровольными
+пожертвованиями (донатами) и не являются платой за Компоненты, лицензию
+на их использование или программное обеспечение.
+6.2. Донаты выражают исключительно благодарность за труд Автора по подбору,
+настройке, тестированию совместимости, созданию Установщика, Wiki-
+документации, репозитория и сопровождению сообщества. Они не предоставляют
+Пользователю никаких дополнительных прав на МодПак или его Компоненты и не
+налагают на Автора дополнительных обязательств сверх оговорённых в
+настоящем Соглашении.
+
+7. ПРИМЕНИМОЕ ПРАВО И РАЗРЕШЕНИЕ СПОРОВ
+7.1. Настоящее Соглашение составлено в соответствии с общепринятыми
+принципами международного права. Вопросы, не урегулированные Соглашением,
+регулируются законодательством Российской Федерации, без учёта
+коллизионных норм.
+7.2. Стороны будут стремиться разрешать все разногласия путём переговоров.
+Если согласие не достигнуто, спор передаётся в компетентный суд по месту
+нахождения Автора.
+7.3. Если какое-либо положение настоящего Соглашения будет признано
+недействительным, остальные положения сохраняют полную силу.
+
+8. КОНТАКТНАЯ ИНФОРМАЦИЯ
+Автор МодПака: Dimas_Petrov
+Страница проекта: https://dimas-petrov.github.io/Realistic-Subnautica-ModPack
+Telegram-канал: https://t.me/RSNMP
+Telegram-группа: https://t.me/rl_sub
+
+==============================================================================
+This is a translation of the original Russian agreement. In case of any discrepancies, the Russian version shall prevail.
+
+END USER LICENSE AGREEMENT
+Realistic Subnautica ModPack (hereinafter – "ModPack", "Pack")
+
+This is a translation of the original Russian agreement.
+In case of any discrepancies, the Russian version shall prevail.
+
+PLEASE READ THIS AGREEMENT CAREFULLY BEFORE INSTALLATION.
+BY INSTALLING THE MODPACK, YOU CONFIRM THAT YOU ACCEPT ALL ITS TERMS.
+IF YOU DO NOT AGREE WITH ANY PROVISION, ABORT THE INSTALLATION.
+
+1. DEFINITIONS
+1.1. Author – the individual who created the Installer and carried out
+the selection, configuration, testing and integration of the Components
+into a single Pack, but who is not the author of individual Components
+unless explicitly stated otherwise.
+1.2. Components – modifications, libraries (BepInEx, Nautilus, etc.),
+ReShade files, localisation and voiceover files, configuration files
+and other materials included in the ModPack.
+1.3. Installer – the Inno Setup-based program designed to automatically
+place the Components into the Subnautica game folder and apply the
+settings created by the Author.
+1.4. User – an individual who has lawfully installed and uses the ModPack
+solely for personal, non-commercial purposes.
+
+2. RIGHTS TO COMPONENTS AND THE PACK
+2.1. The Author holds exclusive rights to the Installer, the selection
+of Components, the settings and the documentation of the ModPack.
+2.2. The User acknowledges and agrees that all exclusive rights to each
+individual Component (mod, library, ReShade file, localisation, voiceover,
+etc.) belong to their respective legal owners. The Author does not claim
+such rights and uses the Components solely as parts of a non-commercial
+compilation.
+2.3. The legal status of each Component is governed by the licence of its
+rights holder. This Agreement does not cancel or alter such licences.
+The User is obliged to independently review the licence of each Component
+and comply with its terms. Installing the ModPack signifies the User's
+consent to this requirement.
+
+3. SOURCES OF COMPONENTS
+3.1. All Components included in the ModPack were obtained from publicly
+accessible sources on the Internet and were in the public domain at the
+time the Pack was assembled.
+3.2. The Author does not verify the legal status of each Component in the
+User's jurisdiction. The User assumes all risks related to the use of
+Components whose sources may be restricted in certain countries.
+
+4. TERMS OF USE
+4.1. The ModPack is intended exclusively for personal, non-commercial use
+together with a legally acquired copy of Subnautica.
+4.2. Any commercial use of the ModPack, its parts or individual Components
+as part of the Pack (sale, rental, inclusion in paid services, commercial
+distribution, etc.) without the prior written permission of the Author
+is prohibited.
+4.3. The User is not entitled to:
+  a) distribute the ModPack or its Components separately from the original
+     Installer, or as part of other packs, passing them off as their own
+     creations;
+  b) decompile, modify the Installer or attempt to circumvent its
+     technical restrictions;
+  c) use the ModPack for purposes contrary to applicable law.
+
+5. LIABILITY AND DISCLAIMER OF WARRANTIES
+5.1. THE MODPACK IS PROVIDED "AS IS". THE AUTHOR MAKES NO EXPRESS OR
+IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE,
+COMPATIBILITY, ABSENCE OF ERRORS OR CONFORMITY TO THE USER'S EXPECTATIONS.
+5.2. The Author shall not be liable for:
+  a) any direct or indirect damage (loss of game saves, OS failures,
+     equipment damage, lost profits, etc.) resulting from the installation,
+     use or inability to use the ModPack;
+  b) the content and functioning of individual Components of which he is
+     not the author;
+  c) the User's infringement of third-party intellectual property rights,
+     including the rights of Component authors and the Subnautica rights
+     holder. By installing the ModPack, the User confirms that they will
+     independently settle any claims from such third parties and undertakes
+     to indemnify the Author for losses arising from such claims caused
+     by the User.
+5.3. In the event of motivated requests from the rights holders of
+individual Components, the Author reserves the right to remove such
+Components from the Pack. The User agrees that such actions do not
+constitute a breach of this Agreement and give the User no grounds for
+claims against the Author.
+
+6. FINANCIAL SUPPORT (DONATIONS)
+6.1. All funds received by the Author through any channels (project page,
+Telegram, etc.) are voluntary donations and do not constitute payment for
+Components, a licence to use them, or software.
+6.2. Donations solely express gratitude for the Author's work of selecting,
+configuring, testing compatibility, creating the Installer, Wiki
+documentation, repository and community support. They do not grant the
+User any additional rights to the ModPack or its Components and do not
+impose any additional obligations on the Author beyond those stipulated
+in this Agreement.
+
+7. GOVERNING LAW AND DISPUTE RESOLUTION
+7.1. This Agreement is drawn up in accordance with generally accepted
+principles of international law. Matters not covered by this Agreement
+shall be governed by the laws of the Russian Federation, without regard
+to conflict of law rules.
+7.2. The Parties shall endeavour to resolve all disputes through
+negotiations. If no agreement is reached, the dispute shall be referred
+to the competent court at the Author’s place of residence.
+7.3. If any provision of this Agreement is held to be invalid, the
+remaining provisions shall remain in full force and effect.
+
+8. CONTACT INFORMATION
+ModPack Author: Dimas_Petrov
+Project page: https://dimas-petrov.github.io/Realistic-Subnautica-ModPack
+Telegram-channel: https://t.me/RSNMP
+Telegram-group: https://t.me/rl_sub
