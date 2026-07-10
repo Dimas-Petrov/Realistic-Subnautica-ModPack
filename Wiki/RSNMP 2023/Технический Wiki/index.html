@@ -1,0 +1,998 @@
+
+<!doctype html>
+<html lang="ru" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Realistic Subnautica 2023 - Технический Wiki">
+      
+      
+      
+        <link rel="canonical" href="https://dimas-petrov.github.io/Realistic-Subnautica-ModPack/Wiki/RSNMP%202023/%D0%A2%D0%B5%D1%85%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20Wiki/">
+      
+      
+        <link rel="prev" href="../Wiki%20%D0%BF%D0%BE%20%D0%BB%D0%BE%D1%80%D1%83%20%D0%B8%20%D0%B8%D0%B3%D1%80%D0%BE%D0%B2%D0%BE%D0%BC%D1%83%20%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D1%83/">
+      
+      
+        <link rel="next" href="../Installation/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../assets/favicons/favicon-32x32.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>Технические вопросы - Realistic Subnautica ModPack</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="light-blue">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#realistic-subnautica-2023-wiki" class="md-skip">
+          Перейти к содержанию
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Верхний колонтитул">
+    <a href="../../.." title="Realistic Subnautica ModPack" class="md-header__button md-logo" aria-label="Realistic Subnautica ModPack" data-md-component="logo">
+      
+  <img src="../../../assets/favicons/apple-touch-icon.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Realistic Subnautica ModPack
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Технические вопросы
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="light-blue"  aria-label="Светлая тема"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Светлая тема" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="white"  aria-label="Тёмная тема"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Тёмная тема" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="amoled" data-md-color-primary="black" data-md-color-accent="white"  aria-label="AMOLED тема"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="AMOLED тема" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2m0 2a8 8 0 0 1 8 8 8 8 0 0 1-8 8z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Поиск" placeholder="Поиск" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Поиск">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Очистить" aria-label="Очистить" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Инициализация поиска
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Навигация" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Realistic Subnautica ModPack" class="md-nav__button md-logo" aria-label="Realistic Subnautica ModPack" data-md-component="logo">
+      
+  <img src="../../../assets/favicons/apple-touch-icon.png" alt="logo">
+
+    </a>
+    Realistic Subnautica ModPack
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../home/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Главная
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    База знаний
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    База знаний
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2_1" id="__nav_2_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    RSNMP 2023
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_1_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    RSNMP 2023
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Wiki%20%D0%BF%D0%BE%20%D0%BB%D0%BE%D1%80%D1%83%20%D0%B8%20%D0%B8%D0%B3%D1%80%D0%BE%D0%B2%D0%BE%D0%BC%D1%83%20%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D1%83/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Лор и игровой процесс
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Технические вопросы
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Технические вопросы
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Содержание">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Содержание
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Системные, лицензионные требования и версия игры.
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Какие модификации и библиотеки входят в сборку?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Как исправить ошибки при установке МодПака через инсталлятор?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Как исправить "сломанную камеру"
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Почему появляются камикадзе из выступов известняка, сланца, песчаника и прочих пород?
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Installation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Установка
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Thanks/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Благодарности
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Q%26A%20%D0%BF%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%83/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Q&A по проекту
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Содержание">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Содержание
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Системные, лицензионные требования и версия игры.
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Какие модификации и библиотеки входят в сборку?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Как исправить ошибки при установке МодПака через инсталлятор?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Как исправить "сломанную камеру"
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Почему появляются камикадзе из выступов известняка, сланца, песчаника и прочих пород?
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<div><h1 id="realistic-subnautica-2023-wiki">Realistic Subnautica 2023 - Технический Wiki</h1>
+<h2 id="_1">Системные, лицензионные требования и версия игры.</h2>
+<p>МодПак имеет &gt;50 модификаций среди которых это механизм автосохранения процесса игры, вследствие чего системные требования немного повысились в сравнение со стандартной игрой.</p>
+<ol>
+<li>МодПак полноценно поддерживается только лицензионная версия игры. Версии 0.1 — 0.7 поддерживаются на версии игры от марта 2023 года (Обновление для Steam Deck).</li>
+<li>Чтобы не ждать долгий процесс автосохранения каждые 15 минут лучше использовать SSD или HDD, но с кеш-памятью и скоростью вращения шпинделя 7200 об/мин.</li>
+<li>Из-за большого кол-ва модификаций рекомендуется как минимум на 4Гб больше ОЗУ в отличие от стандартных рекомендуемых сис.требований игры.</li>
+<li>На системах Windows рекомендуется как минимум 4Гб файла подкачки для HDD. Если система не соответствует требованию №3, то в 2-3 раза больше. Для SSD игнорируйте это требование.</li>
+</ol>
+<details class="abstract">
+<summary>Тестовая конфигурация ПК</summary>
+<p>Сборка собиралась и проходила начальное тестирование на следующей системе:</p>
+<ul>
+<li>OC: Windows 11 22H2.</li>
+<li>ОЗУ: 16Гб (2 по 8Гб в двухканальном режиме) DDR3 1333МГц 7-8-7-21 (тайминги с малым разгоном) Kingston KS-HX318C10FB/8.</li>
+<li>ЦП: AMD Phenom II X6 1090T (аналог 1100T с пониженной на 100МГц частотой)</li>
+<li>GPU: nVidia GeForce GTX 750Ti 2Gb PCI-e 2.0 16x</li>
+<li>ROM: HDD 1Tb WD Green 5200 Об/мин SATA 2</li>
+<li>Мат.плата (!особое внимание!): MSI 770-C45</li>
+<li>Звук: Creative SB Audigy 4 (Отлично помогает погрузится в игровой процесс в наушниках) + Creative SB Audigy Live! 5.1, на базе драйвера kX Project</li>
+<li>Разрешение монитора: Classic Full HD.</li>
+</ul>
+</details>
+<h2 id="_2">Какие модификации и библиотеки входят в сборку?</h2>
+<details class="abstract">
+<summary>Список</summary>
+<ol>
+<li>Accelerated Start v2.0.2</li>
+<li>AdvancedInventory v1.0.4</li>
+<li>Anisotropic Fix v2.0</li>
+<li>Attitude Indicator v4.0.0</li>
+<li>Bag Equipment v1.2.0</li>
+<li>Base Clocks v1.0.0.0</li>
+<li>Base Light Switch v2.1.0</li>
+<li>BepInEx Tweaks v1.2.1</li>
+<li>Blueprint Search Bar v1.0.0</li>
+<li>Configuration Manager v17.1</li>
+<li>Configuration Manager Tweaks v1.2</li>
+<li>Copper From Scanning v1.0.0</li>
+<li>Creature Flee Fix v1.0</li>
+<li>Custom Batteries (Purple Edition) v1.0.0.0</li>
+<li>Custom Craft 3 (Purple Edition) v1.0.0.4</li>
+<li>Custom Sunbeam Countdown v1.1.1</li>
+<li>Custom Load Screen v2.0.0 | в версии МодПака 0.6.0 содержится не менее 40 шт. загрузочеых экранов.</li>
+<li>Cyclops Docking Mod v2.1.1</li>
+<li>DarkerLost River v1.0.0</li>
+<li>Databank Scroll Fix v1.0.0</li>
+<li>Deathrun Remade + русификатор v1.1.2</li>
+<li>De-Extinction + русификатор v2.1.</li>
+<li>Disable Options Tabs v1.0.0</li>
+<li>Drop Storage Items v1.0.1.0</li>
+<li>Drop Upgrades On Destroy v2.0.0.0</li>
+<li>Dynamic Scanner Blips v1.1</li>
+<li>Easy Fast Craft v1.0.0</li>
+<li>ECC Library v2.1.1</li>
+<li>Enhanced Sleep v1.0.0.0</li>
+<li>Epic Structure Loader v1.0.2</li>
+<li>Epic Weather v0.0.8</li>
+<li>Faster Build v1.0.0</li>
+<li>Faster PDA Scan v1.0.0</li>
+<li>Faster Growth BepinEx v1.0.0</li>
+<li>Fast Loading Screen v2.0.1</li>
+<li>File Tree v1.0.1</li>
+<li>Find My Updates v1.0.5</li>
+<li>Fixes v1.1.0</li>
+<li>FOV Slider v1.0.2</li>
+<li>Free Look v2.4.1</li>
+<li>Geysers Performance Fix v1.0.1.0</li>
+<li>Grounded Items v1.0</li>
+<li>Habitat Control Panel v2.1.0</li>
+<li>Hull Reinforcement Fix v1.2.6</li>
+<li>Hydronautica's Hammer Mod v1.0.0</li>
+<li>Interpolation Fix v1.0.1</li>
+<li>Laser Cutter Speed v2.0.0</li>
+<li>Lights Drain Power v1.0.0.0</li>
+<li>Mod Structure Helper v1.0.8</li>
+<li>Moonpool Rotation v1.1.0</li>
+<li>More Lockers v1.0.1</li>
+<li>Music Fading Out Fix v1.0.2.0</li>
+<li>Nautilus v1.0.0.41</li>
+<li>Performance Booster v2.1</li>
+<li>Precursor Mesh Fix v1.0.0</li>
+<li>Quick Slots Plus v2.2.1</li>
+<li>Quit To Desktop v1.0.0</li>
+<li>Radial Tabs (Purple Edition) v2.0.0.0</li>
+<li>Ramunes Customized Storage v1.0.3</li>
+<li>Random Creature Size v1.0.0.0</li>
+<li>Realistic Survival Rates v1.0.0</li>
+<li>Roll Control v5.3.1</li>
+<li>Rotatable Ladders v1.1.0</li>
+<li>Show Available Items v1.0.7</li>
+<li>Simple Main Menu v1.0.2</li>
+<li>SnapBuilder v2.4.0</li>
+<li>Stats Tracker v4.1.0</li>
+<li>Subnautica Altitude Meter v2.0.1</li>
+<li>Subnautica Autosave v2.2.0</li>
+<li>SubnauticaModManager for BepInEx v1.2.3</li>
+<li>Texture Replacer v1.2.1</li>
+<li>Todo List v1.1.2</li>
+<li>Unknown LifePod v1.9.3.1</li>
+<li>Unknown Name v2.0.0.0</li>
+<li>VehicleFramework v1.8.9</li>
+<li>VisibleLockerInterior v2.0.0</li>
+<li>Volume Control v1.2.1</li>
+<li>Русификатор озвучки R.G. Mechanics VoiceOver Studio | 462Мб от общего объёма установщика</li>
+<li>GamesVoice Studio | 262Мб от общего объёма установщика</li>
+<li>ReShade + 5 пресетов.</li>
+<li>DSOALL - движок OpenAL заменяющий DirectSound</li>
+</ol>
+</details>
+<h2 id="_3">Как исправить ошибки при установке МодПака через инсталлятор?</h2>
+<p>Если при установке МодПака возникают ошибки нужно:
+1. Убедится в том, что вы запустили установку от имени администратора. 
+1. Удалить файл, из-за которого возникла ошибка, если инсталлятор пишет "файл уже существует". 
+1. Удалить МодПак предыдущей версии (в случае, если будет удаляться МодПак версии 0.4.0 будут удалены файлы сохранений игры, рекомендуется создать их резервную копию перед тем как удалять).</p>
+<h2 id="_4">Как исправить "сломанную камеру"</h2>
+<p>Если в процессе игры, у вас перестала поворачиваться камера/голова персонажа или сломалось положение тела, либо вообще некорректно открывается КПК, то в режиме плавания дважды нажмите на правую клавишу Alt. </p>
+<div class="admonition warning">
+<p class="admonition-title">Предупреждение</p>
+<ul>
+<li><strong>Учтите, что данный способ работает, только если в процессе установки МодПака, в разделе компонентов, вы выбрали пункт "заменить настройки игры" (может называться иначе, в зависимости от версии МодПака).</strong></li>
+<li><strong>Данный метот отключает работу мода Roll Control, позволяющего иметь расширенное управление движением персонажа и мотылька.</strong></li>
+</ul>
+</div>
+<h2 id="_5">Почему появляются камикадзе из выступов известняка, сланца, песчаника и прочих пород?</h2>
+<p>В первую очередь это связано с тем, что вы установили МодПак на нелицензионную версию Subnautica. Причиной этому являются моды которые активируют отключённые скрипты проверки лицензии внутри игрового процесса.</p>
+<div class="admonition note">
+<p class="admonition-title">Как исправить</p>
+<p>Для игры на нелицензионной версии, вы можете удалить эти моды. Если же у вас имеется лицензия Steam, то переживать не о чем. </p>
+<p>Вот эти моды: 
+1. RamunesCustomizedStorage - позволяет настраивать объём хранилищ, таких как шкафчики, модуль хранилищ транспортных средств и пр.</p>
+<ol>
+<li>
+<p>FOVSlider - Увеличивает Поле обзора слайдера с 90 до 120 макс.</p>
+</li>
+<li>
+<p>FindMyUpdates - Стандартный мод проверки версии для Subnautica 2.0 — проверяет установленные моды на наличие обновлений каждый раз при запуске игры.</p>
+</li>
+<li>
+<p>DisableOptionsTabs - Добавляет переключатели для отключения вкладок в меню «Параметры» («Графика», «Клавиатура», «Устранение неполадок», «Активировать ключ» и т. д.).</p>
+</li>
+<li>
+<p>BaseClocks - Добавляет возможность строить двое часов (аналоговые и электронные) в конструктор среды обитания.</p>
+</li>
+</ol>
+<p>Оригинал информации: https://t.me/rl_sub/23/2024</p>
+</div></div>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      © 2026 Realistic Subnautica ModPack.  <a href="/privacy-policy/">Политика конфиденциальности</a> |  <a href="/terms-of-service/">Условия использования</a>
+
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+      <div class="md-consent" data-md-component="consent" id="__consent" hidden>
+        <div class="md-consent__overlay"></div>
+        <aside class="md-consent__inner">
+          <form class="md-consent__form md-grid md-typeset" name="consent">
+            
+
+
+
+<h4>Cookie consent</h4>
+<p>Мы используем файлы cookie, чтобы улучшить работу сайта.
+</p>
+<input class="md-toggle" type="checkbox" id="__settings" >
+<div class="md-consent__settings">
+  <ul class="task-list">
+    
+    
+      
+    
+    
+    
+      
+        
+  
+  
+    
+    
+      
+    
+  
+  <li class="task-list-item">
+    <label class="task-list-control">
+      <input type="checkbox" name="github" checked>
+      <span class="task-list-indicator"></span>
+      GitHub
+    </label>
+  </li>
+
+      
+    
+  </ul>
+</div>
+<div class="md-consent__controls">
+  
+    
+      <button class="md-button md-button--primary">Принять</button>
+    
+    
+    
+  
+    
+    
+      <button type="reset" class="md-button md-button--primary">Отклонить</button>
+    
+    
+  
+    
+    
+    
+      <label class="md-button" for="__settings">Управлять настройками</label>
+    
+  
+</div>
+          </form>
+        </aside>
+      </div>
+      <script>var consent=__md_get("__consent");if(consent)for(var input of document.forms.consent.elements)input.name&&(input.checked=consent[input.name]||!1);else"file:"!==location.protocol&&setTimeout((function(){document.querySelector("[data-md-component=consent]").hidden=!1}),250);var form=document.forms.consent;for(var action of["submit","reset"])form.addEventListener(action,(function(e){if(e.preventDefault(),"reset"===e.type)for(var n of document.forms.consent.elements)n.name&&(n.checked=!1);__md_set("__consent",Object.fromEntries(Array.from(new FormData(form).keys()).map((function(e){return[e,!0]})))),location.hash="",location.reload()}))</script>
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": [], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "\u0421\u043a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u043d\u043e \u0432 \u0431\u0443\u0444\u0435\u0440", "clipboard.copy": "\u041a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u0432 \u0431\u0443\u0444\u0435\u0440", "search.result.more.one": "\u0415\u0449\u0451 1 \u043d\u0430 \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435", "search.result.more.other": "\u0415\u0449\u0451 # \u043d\u0430 \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435", "search.result.none": "\u0421\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439 \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e", "search.result.one": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e 1 \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0435", "search.result.other": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439: #", "search.result.placeholder": "\u041d\u0430\u0447\u043d\u0438\u0442\u0435 \u043f\u0435\u0447\u0430\u0442\u0430\u0442\u044c \u0434\u043b\u044f \u043f\u043e\u0438\u0441\u043a\u0430", "search.result.term.missing": "\u041e\u0442\u0441\u0443\u0442\u0441\u0442\u0432\u0443\u0435\u0442", "select.version": "\u0412\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0432\u0435\u0440\u0441\u0438\u044e"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
